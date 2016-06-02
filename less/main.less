@@ -1,0 +1,54 @@
+@body-bg: #CCC;
+@panel-width: 1024px;
+@input-text-width: 800px;
+@input-textarea-width: 880px;
+@primary-btn-width: 100px;
+@input-textarea-height: 300px;
+
+body {
+  background-color: @body-bg;
+}
+
+div#main {
+  width: @panel-width;
+  margin: 5px auto;
+}
+
+.input-panel{
+    width: @panel-width;
+}
+
+.input-panel .form-group textarea {
+    width: @input-textarea-width;
+}
+
+.result-list .form-group {
+    width: 100%;
+}
+
+.result-list .form-group textarea {
+    width: 100%;
+    height: @input-textarea-height;
+}
+
+.form-inline .form-group input.form-control {
+    width: @input-text-width;
+}
+
+.send-btn {
+    width: @primary-btn-width;
+}
+
+.result-list {
+    overflow: auto;
+}
+
+.result-list .response-body-textarea {
+    margin-top: 5px;
+}
+
+.form-inline .form-group input.history-url.form-control {
+    border-width: 0px;
+    width: 600px;
+    margin: 0 15px;
+}
